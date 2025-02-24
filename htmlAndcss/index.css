@@ -6,16 +6,18 @@
 } 
 
 .container {
-    width: 100vw; 
-    height: 100vh;
-    background: #00b4bB;  
-    background: -webkit-linear-gradient(to right, #0083b0, #00b4db);  
-    background: linear-gradient(to right, #0083b0, #00b4db);
     display: flex;
     justify-content: center;
     align-items: center; 
     flex-direction: column;
+    width: 100vw; 
+    height: auto;
+    background: #00b4bB;  
+    background: -webkit-linear-gradient(to left, #0083b0, #00b4db);  
+    background: linear-gradient(to left, #0083b0, #00b4db);
 
+
+    
 }
 
 .containerOne {
