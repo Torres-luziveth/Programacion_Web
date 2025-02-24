@@ -12,12 +12,7 @@
     flex-direction: column;
     width: 100vw; 
     height: auto;
-    background: #00b4bB;  
-    background: -webkit-linear-gradient(to left, #0083b0, #00b4db);  
-    background: linear-gradient(to left, #0083b0, #00b4db);
-
-
-    
+    background: linear-gradient (rgb(90, 144, 243), rgb(61, 185, 223));
 }
 
 .containerOne {
