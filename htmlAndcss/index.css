@@ -11,11 +11,10 @@
     align-items: center; 
     flex-direction: column;
     width: 100vw; 
-    height: auto;
+    height: 100vh;
     background: #00B4DB;  
-    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  
-    background: linear-gradient(to right, #0083B0, #00B4DB); 
-
+    background: -webkit-linear-gradient(to left, #0083B0, #00B4DB);  
+    background: linear-gradient(to left, #0083B0, #00B4DB); 
 }
 
 .containerOne {
