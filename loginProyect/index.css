@@ -11,5 +11,15 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(to bottom, rgb(90, 144, 243), rgb(61, 185, 223));
-  }
+    background: linear-gradient(to bottom, #1a97f4, #2ec1ed);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    width: 420px; 
+    height: 370px;
+    background-color: white;
+    box-shadow: 0 0 30px #0387ef; /*sombra*/
+}
