@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./assets/backgrouund.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.LoginB {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;  
+    color: #f4f4f4;
+}
+
+.LoginB img {
+    width: 70%;
+}
+
+.LoginB p {
+    margin-top: 60px;
+}
+
+.imagen {
+    margin-top: 30px;
+    width: 70px ;
+    height: 70px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    background-color: #fff;
+}
+
+.container_inputs{
+    width: 76%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_inputs input{
+    margin-top: 10px;
+    width: 100%;
+    padding: 9px;
+    border: 0px;
+    border-radius: 3px;
+}
+
+
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+}
+
+.login {
+    background-image: linear-gradient(to right, #A77BF2, #6756D6);
+    border: none;
+    color: #fff;
+    border: 10px;
+    appearance: none;
+}
+
+footer {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+

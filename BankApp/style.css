@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./assets/backgrouund.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.container .Logo {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
+}
+
+.Logo img {
+
+    width: 90%;
+    height: 90%;
+    margin-bottom: 20px;   
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 120px;
+    color: #fff;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+}
+
+.login {
+    background-image: linear-gradient(to right, #A77BF2, #6756D6);
+    border: none;
+    color: #fff;
+    border: 10px;
+    appearance: none;
+}
+
+.register {
+    border: none;
+    color: #000000;
+    border: 10px;
+    appearance: none;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    margin-bottom: 20px;
+    color: #898989;
+}
