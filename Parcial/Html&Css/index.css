@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_general{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    background-color: #FFEA35;
+}
+
+.container_box_purple{
+    width: 10%;
+    height: 100%;
+    background-color: #E016FF;
+}
+
+.container_one{
+    width: 90%;
+    height: 100%;
+}
+
+.container_two{
+    display: flex;
+    justify-content: center;
+    gap: 72px;
+    width: 100%;
+    height: 43.5%;
+    padding: 68px 0;
+    background-color: #FFEA35;
+}
+
+.container_four{
+    display: flex;
+    width: 25%;
+    height: 100%;
+    background-color: #FF800B;
+}
+
+.container_five{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    background-color:  #FF800B;
+}
+
+.container_six{
+    display: flex;
+    align-items: end;
+    flex-direction: column-reverse;
+    width: 25%;
+    height: 100%;
+    background-color: #FF800B;
+}
+
+.container_box_orange_1{
+    width: 30%;
+    height: 40%;
+    background-color:#FFBB7C;
+}
+
+
+.container_box_blue{
+    width: 100%;
+    height: 13%;
+    background-color: #1C2260;
+}
+.container_three{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    width: 100%;
+    height: 43.5%;
+    padding: 70px 0;
+    background-color: #FFEA35;
+}
+
+.container_seven{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    height: 100%;
+    background-color:  #FF0B80 ;
+}
+.container_eight{
+    display: flex;
+    align-items: center;
+    width: 35%;
+    height: 100%;
+    background-color:  #FF0B80;
+}
+
+.container_box_pink_1{
+    width: 18%;
+    height: 32%;
+    background-color: #FF7DB9;
+}
+
+.container_box_pink_2{
+    width: 100%;
+    height: 15%;
+    background-color: #FF7DB9;
+}
